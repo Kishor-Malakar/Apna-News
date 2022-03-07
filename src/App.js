@@ -19,12 +19,12 @@ function App(){
   const toggleMode=()=>{
     if(mode==="light"){
       setMode("dark");
-      document.body.style.background = "linear-gradient(270deg, rgba(9,9,57,1) 0%, rgba(10,19,63,1) 100%)";
+      document.body.style.backgroundColor = "#090939";
       document.body.style.color = "white"
     }
     else{
       setMode("light");
-      document.body.style.background = "white";
+      document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
     }
   }
